@@ -1,0 +1,36 @@
+.item {
+  list-style: none;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2e2f42;
+  margin-bottom: 16px;
+  padding-left: 40px;
+}
+.list {
+  color: #f6f6fe;
+  list-style: none;
+}
+.box {
+  border: solid 1px;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  color: #808080;
+  margin-bottom: 8px;
+}
+.text {
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+
+  width: 29px;
+  height: 24px;
+}
