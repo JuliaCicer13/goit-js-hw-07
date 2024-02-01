@@ -34,3 +34,17 @@
   width: 29px;
   height: 24px;
 }
+/* Gallery */
+.gallery {
+  width: 1128px;
+  height: 300px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.gap {
+  width: calc((100% - 48px) / 3);
+}
