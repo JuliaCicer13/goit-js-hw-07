@@ -20,7 +20,46 @@
   font-size: 24px;
   line-height: 32px;
 }
-.login-form {
+/* Form */
+.box-label {
+  margin-bottom: 8px;
+}
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-bottom: 9px;
+}
+.input-mail {
+  width: 360px;
+  height: 40px;
+  border-color: #808080;
+  border-radius: 4px;
+  border: solid 1px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 16px;
+}
+.input-mail:hover {
+  border-color: #000000;
+}
+
+.box-password {
+  margin-bottom: 16px;
+}
+.button {
+  width: 86px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  color: #6c8cff;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
 .item {
   list-style: none;
