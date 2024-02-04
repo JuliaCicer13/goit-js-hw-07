@@ -1,3 +1,30 @@
+.widget {
+  margin-bottom: 10px;
+}
+.Background {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: #2e2f42;
+}
+.change-color {
+  width: 148px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4e75ff;
+  border-color: #4e75ff;
+}
 .input {
   width: 360px;
   height: 40px;
@@ -9,13 +36,19 @@
   line-height: 24px;
   color: #2e2f42;
   padding-left: 16px;
+  font-family: Montserrat;
+}
+.input::placeholder {
+  color: #000000;
 }
 .span {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
+  font-family: Montserrat;
 }
 .title-main {
+  font-family: Montserrat;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -28,7 +61,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
+  font-family: Montserrat;
   margin-bottom: 9px;
 }
 .input-mail {
@@ -41,6 +74,10 @@
   font-size: 16px;
   line-height: 24px;
   padding-left: 16px;
+  font-family: Montserrat;
+}
+.input-mail::placeholder {
+  color: #000000;
 }
 .input-mail:hover {
   border-color: #000000;
@@ -53,13 +90,19 @@
   width: 86px;
   height: 40px;
   border-radius: 8px;
+  border-color: #4e75ff;
   padding: 8px, 16px, 8px, 16px;
   gap: 10px;
-  color: #6c8cff;
+  background-color: #4e75ff;
+  color: #f6f6fe;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  font-family: Montserrat;
+}
+.button:hover {
+  background-color: #6c8cff;
 }
 .item {
   list-style: none;
@@ -72,6 +115,7 @@
   color: #2e2f42;
   margin-bottom: 16px;
   padding-left: 40px;
+  font-family: Montserrat;
 }
 .list {
   color: #f6f6fe;
@@ -93,7 +137,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #2e2f42;
-
+  font-family: Montserrat;
   width: 29px;
   height: 24px;
 }
