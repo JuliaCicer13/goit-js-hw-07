@@ -1,3 +1,55 @@
+.number-one {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  border: solid 1px;
+  padding: 8px, 72px, 8px, 72px;
+  gap: 10px;
+  border-color: #808080;
+}
+.number-one::placeholder {
+  width: 6px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: #2e2f42;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+.button-create {
+  width: 120px;
+  height: 44px;
+  border-radius: 8px;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  background-color: #4e75ff;
+  border-color: #4e75ff;
+  color: #f6f6fe;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+.button-destroy {
+  width: 120px;
+  height: 44px;
+  border-radius: 8px;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  background-color: #ff4e4e;
+  border-color: #ff4e4e;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+
 .widget {
   margin-bottom: 10px;
 }
