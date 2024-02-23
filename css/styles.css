@@ -194,9 +194,8 @@
   height: 24px;
 }
 /* Gallery */
-.gallery {
+.gallery-first {
   width: 1128px;
-  height: 300px;
   list-style: none;
   display: flex;
   align-items: center;
@@ -206,4 +205,20 @@
 }
 .gap {
   width: calc((100% - 48px) / 3);
+}
+/* last-gallery */
+.gallery { 
+  list-style:none;
+   width: 1000px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 20px;
+
+}
+
+.gallery-image {
+    width: calc((100% - 48px) / 2);
+
 }
