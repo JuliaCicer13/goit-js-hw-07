@@ -6,7 +6,6 @@ loginForm.addEventListener('submit', function (event) {
   // Collect input values
   const emailInput = this.elements.email;
   const passwordInput = this.elements.password;
-
   const emailValue = emailInput.value.trim();
   const passwordValue = passwordInput.value.trim();
 
