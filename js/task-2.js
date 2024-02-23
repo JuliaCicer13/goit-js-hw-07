@@ -18,6 +18,7 @@ const galleryList = document.querySelector('.gallery');
 const galleryItems = images.map(image => {
   const listItem = document.createElement('li');
   const imageElement = document.createElement('img');
+  
 
   imageElement.src = image.url;
   imageElement.alt = image.alt;
