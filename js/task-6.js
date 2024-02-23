@@ -9,7 +9,9 @@ function getRandomHexColor() {
     .padStart(6, '0')}`;
 }
 
-function createBoxes(amount) {
+createButton.addEventListener('click', () => {
+
+  function createBoxes(amount) {
   const boxes = [];
 
   for (let i = 0; i < amount; i++) {
@@ -18,18 +20,11 @@ function createBoxes(amount) {
     box.style.width = `${boxSize}px`;
     box.style.height = `${boxSize}px`;
     box.style.backgroundColor = getRandomHexColor();
-
     boxes.push(box);
   }
 
   boxesContainer.append(...boxes);
 }
-
-function destroyBoxes() {
-  boxesContainer.innerHTML = '';
-}
-
-createButton.addEventListener('click', () => {
   const amount = Number(input.value);
 
   if (amount >= 1 && amount <= 100) {
@@ -38,4 +33,11 @@ createButton.addEventListener('click', () => {
   }
 });
 
-destroyButton.addEventListener('click', destroyBoxes);
+function destroyBoxes() {
+  boxesContainer.innerHTML = '';
+
+ 
+}
+ destroyButton.addEventListener('click', destroyBoxes); 
+
+
