@@ -21,6 +21,8 @@ createButton.addEventListener('click', () => {
     box.style.height = `${boxSize}px`;
     box.style.backgroundColor = getRandomHexColor();
     boxes.push(box);
+
+   
   }
 
   boxesContainer.append(...boxes);
@@ -31,13 +33,15 @@ createButton.addEventListener('click', () => {
     createBoxes(amount);
     input.value = '';
   }
-});
-
-function destroyBoxes() {
+ function destroyBoxes() {
   boxesContainer.innerHTML = '';
 
  
 }
  destroyButton.addEventListener('click', destroyBoxes); 
+
+});
+
+
 
 
