@@ -10,3 +10,4 @@ nameInput.addEventListener('input', (event) => {
     nameOutput.textContent = inputText;
   }
 });
+
