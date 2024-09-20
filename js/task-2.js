@@ -11,21 +11,40 @@ const images = [
     url: "https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?dpr=2&h=750&w=1260",
     alt: "Group of Horses Running",
   },
+  {
+    url: "https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272_1280.jpg",
+    alt: "Alpine Spring Meadows",
+  },
+  {
+    url: "https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255_1280.jpg",
+    alt: "Nature Landscape",
+  },
+  {
+    url: "https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg",
+    alt: "Lighthouse Coast Sea",
+  },
 ];
+
+
+
 
 const galleryList = document.querySelector('.gallery');
 
-const galleryItems = images.map(image => {
-  const listItem = document.createElement('li');
-  const imageElement = document.createElement('img');
-  
 
-  imageElement.src = image.url;
-  imageElement.alt = image.alt;
-  imageElement.classList.add('gallery-image');
 
-  listItem.appendChild(imageElement);
-  return listItem;
+const galleryItems = images.map(({url, alt}) => {
+
+  const createItem = document.createElement("li");
+  const createImage = document.createElement("img");
+  createImage.classList = 'image-gallery';
+  createItem.classList = 'gallery-list';
+  createImage.src = url;
+  createImage.alt = alt;
+
+  createItem.append(createImage);
+
+
+  return createItem;
 });
 
 galleryList.append(...galleryItems);
