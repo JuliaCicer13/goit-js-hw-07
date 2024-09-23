@@ -1,5 +1,14 @@
-const changeColorButton = document.querySelector('.change-color');
-const changeColorSpan = document.querySelector('color');
+const getBackgroundColor = document.querySelector(".widget");
+const getRandomColor = document.querySelector(".color");
+const getButton = document.querySelector(".change-color");
+
+
+getButton.addEventListener("click", handleClick);
+
+const handleClick = (event) => {
+  event;
+  event.type;
+  event.currentTarget;
 
 
 function getRandomHexColor() {
@@ -9,12 +18,7 @@ function getRandomHexColor() {
 }
 
 
-changeColorButton.addEventListener('click', function () {
-  const randomColor = getRandomHexColor();
 
-  // Set background color for body
-  document.body.style.backgroundColor = randomColor;
 
-  // Set text content for span.color
-  colorSpan.textContent = randomColor;
-});
+
+}
