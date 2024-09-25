@@ -24,5 +24,14 @@ function createBoxes(amount) {
   
 }
 
+destroyButton.addEventListener("click", destroyBoxes);
 
+function destroyBoxes() {
+    
+
+
+
+
+    
+}
 
