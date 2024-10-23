@@ -18,7 +18,7 @@ alert("Please fill in all fields!")
 
   } else {
 
-    console.log(`Login: ${login.trim()
+    console.log(`Login: ${email.trim()
   }, Password: ${ password.trim() }`);
     form.reset();
   }
