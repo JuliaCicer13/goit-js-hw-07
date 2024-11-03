@@ -48,3 +48,10 @@ const galleryItems = images.map(({url, alt}) => {
 });
 
 galleryList.append(...galleryItems);
+
+
+
+
+
+
+
