@@ -5,24 +5,55 @@ const getBodyColor = document.querySelector(".body-color")
 
 
 
-const handleClick = (event) => {
-  const randomColor = getRandomHexColor();
+
+
+
+const clickHandle = (event) => {
+
+  const getColor = getRandomHexColor();
   event;
-  event.type;
-  event.currentTarget;
-  getBodyColor.style.backgroundColor = randomColor;
-  getRandomColor.textContent = randomColor;
+  event.target;
+  event.carrentTarget;
+  getBodyColor.style.backgroundColor = getColor;
+  getRandomColor.textContent = getColor;
 
+
+
+  
 function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215)
-    .toString(16)
-    .padStart(6, 0)}`;
-}
+    return `#${Math.floor(Math.random() * 16777215)
+      .toString(16)
+      .padStart(6, 0)}`;
+
+
+  }
+
+
+
+ }
+
+
+
+
+getButton.addEventListener("click", clickHandle);
 
 
 
 
 
-}
+ 
 
-getButton.addEventListener("click", handleClick);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
