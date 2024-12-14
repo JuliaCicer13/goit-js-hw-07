@@ -32,26 +32,26 @@ const galleryList = document.querySelector('.gallery');
 
 
 
-const galleryItems = images.map(({url, alt}) => {
-
-  const createItem = document.createElement("li");
-  const createImage = document.createElement("img");
-  createImage.classList = 'image-gallery';
-  createItem.classList = 'gallery-list';
-  createImage.src = url;
-  createImage.alt = alt;
-
-  createItem.append(createImage);
 
 
-  return createItem;
-});
+
+
+
+
+const galleryItems = images.map(({ url, alt}) => {
+  
+
+  const elementsLi = document.createElement("li");
+  const itemImag = document.createElement("img");
+  elementsLi.classList.add('image=li');
+  itemImag.classList.add('image-list');
+  itemImag.src = url;
+  itemImag.alt = alt;
+
+  elementsLi.append(itemImag);
+  return elementsLi;
+
+
+})
 
 galleryList.append(...galleryItems);
-
-
-
-
-
-
-
